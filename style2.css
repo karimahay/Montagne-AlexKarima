@@ -1,0 +1,236 @@
+
+header .container-fluid {
+    background: url('images/bg_header.jpg') ; 
+    background-repeat: no-repeat;
+    background-position: center;
+  	color: white;
+  	background-size: cover;
+    height: 120vh;
+    padding-top: 10px;
+    text-align: center;
+	}
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+	}
+
+/* Configuration du Menu hamburger */
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:2%;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:black;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  margin-left: 0;
+}
+   
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0%;
+  padding:20px 15px 0px 15px;
+  color:#e74c3d;
+  border:0;
+  font-size:4em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none; 
+  } 
+.menu{
+     font-family:'Arvo';
+     font-weight:bold;
+     font-size:1em; 
+     width:15%; 
+     height: 100%;
+     background:#222222;  
+     position:absolute; 
+     text-align:center; 
+     font-size:12px;
+     margin-left: 0%;
+     margin-top: 50px;
+    padding-bottom: 500px;
+    padding-top: 100px;
+    }
+.menu ul {
+     margin: 0; 
+     padding: 0; 
+     list-style-type: none; 
+     list-style-image: none;
+    }
+.menu li {
+     display: block;   
+     padding:15px 0 15px 0; 
+     border-bottom:#222222 1px solid;
+     border-color: grey;
+     }
+.menu li:hover{
+     display: block;    
+     background:#ffffff; 
+     padding:15px 0 15px 0; 
+     border-bottom:#dddddd 1px solid;}
+.menu ul li a { 
+     text-decoration:none;  
+     margin: 0px; 
+     color:#666;
+    }
+.menu a:hover{
+    text-decoration:none;
+    color:#666;
+    }
+a{color:#336699;}
+
+/* Fleche pour remonter la page */
+#back-to-top{
+    position: fixed;
+    z-index: 99;
+    bottom: 4%;
+    right: 1%;
+    }
+
+ /*Configuration du beaugosse sur les nuages*/
+.number .container-fluid {
+    background-image: url('images/bg_nuage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+.couleur {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background-color: rgba(128, 215, 247, 0.66);
+    }
+
+   /*Configuration image appareil photo*/
+.appareilphoto .container-fluid{
+    background-image: url('images/bg_appareil_photo.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+/*menu du milieu */
+.bg-info{
+	background-color: #DDDDDD;
+}
+/*Image Logo*/
+#HOME img{
+	opacity: 50%;
+	width: 180px;
+	height: 140px;
+	margin-left: 200px;
+	margin-top: 30px;
+    } 
+#HOME h4{
+	font-size: 60px;
+	text-align: center;
+    }
+
+/* Configuration des icones */
+.fa-1x {
+	font-size: 1.5rem;
+	margin-left: 800px;
+	}
+.fas{
+	border:none;
+	}
+.fa-3x{
+	margin-left: 50%;
+	}
+
+/* beaugosse sur les nuages */
+.beaugossenuage {
+	background-image:url('images/bg_nuage.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+	}
+
+.meufvelo {
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}  
+
+.fondbleu {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: rgba(128, 215, 247, 0.660);
+	}
+
+.textblanc {
+	color:white;
+	}
+.boxes {
+	border-style: solid;
+	border-width: 1px;
+	margin: 1%;
+	border-color: white;
+	margin-right: 20px;
+}
+
+
+/* Galerie */
+#photos{
+	background-color: #DDDDDD;
+}
+.fit-image{
+	height: 100%;
+	width: 100%;
+}
+
+#ma-grille{
+	margin-top: 50px;
+}
+.grid-padding{
+	padding: 0 8px;
+}
+.grid-padding img{
+	margin-bottom: 15px;
+	transition :0.8s ease;
+}
+.grid-padding img : hover{
+	box-shadow: 0 10px 40px 0 rgba(0,0,0,0.5);
+	transition :0.8s ease;
+}
+
+.col-sm-4{
+   padding-right: 30px;
+}
+
+/*Newsletter*/
+.newsletter .container-fluid{
+	background: linear-gradient(rgba(33, 37, 43, 0.6),rgba(33, 37, 43, 0.6)),
+	url('images/bg_newsletter.jpg');
+    padding-top: 10%;
+    padding-bottom: 10%;   
+	} 
+
+/*Footer*/
+footer {
+    background-color: rgba(36, 50, 59, 1);
+    padding-top: 10%;
+    padding-bottom: 10%;
+	}
+.iconesfooter {
+	padding:10%;
+	}
+.textbleu {
+	color:blue !important;
+	}
+
